@@ -4391,9 +4391,9 @@ Escaneie o QR Code ou copie o codigo abaixo:
       return
     }
     } catch (error) {
-      console.error("[webhook] Error processing:", error)
-    }
+    console.error("[webhook] Error processing:", error)
   }
+}
 }
 
 // ---------------------------------------------------------------------------
